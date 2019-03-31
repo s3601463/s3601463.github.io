@@ -4,155 +4,144 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 	<title> s3601463 | Homepage </title>
-	<link rel="icon" type="image/png" href="PiHub_Icon.png">
-	<style>
-	.titleHeader {background-color: #ff9800; border: none; color: black; padding: 10px 5px; text-align: center; display: inline-block; font-weight: bold; font-size: 60px; font-family: Ariel, Geneva, sans-serif; margin: 6px 2px; margin-top: 25px; border-radius: 20px; }
-	.topMargin {margin-top: 25px; }
-	.tablink {background-color: #ff9800; border: none; color: black; padding: 6px 16px; text-align: center; display: inline-block; font-size: 27px; margin: 3px 1px; margin-top: 50px; cursor: pointer; }
-	.tabM {border-radius: 4px; margin-right: 50px; font-weight: bold;}
-	.imgFit {width: 250px; height: 120px; max-width: 100%; max-height: 100vh; object-fit: contain; cursor: pointer;}
-	.imgFitA {width: 64px; height: 64px; max-width: 100%; max-height: 100vh; object-fit: contain; cursor: pointer;}
-	.imgFitCon {width: 250px; height: 120px; max-width: 100%; max-height: 100vh; object-fit: contain; align: center; cursor: pointer;}
-	.SubHeadText {color: #ff9800; font-family: Ariel, Geneva, sans-serif; display: inline-block | inline-grid; text-align: center; text-decoration: none; cursor: pointer; margin-bottom: 10px;}
-	.FooterText {color: #ff9800; font-family: Ariel, Geneva, sans-serif; display: inline-block | inline-grid; text-align: left; text-decoration: none; cursor: pointer; margin-bottom: 10px;}
-	.grid-container {
-		display: grid;
-		justify-content: space-evenly;
-		justify-items: center
-		align-content: center;
-		grid-template-areas: 
-		'headerL headerSML headerM headerM headerSMR headerR' 
-		'DeadSpaceL middle middle middle middle DeadSpaceR' 
-		'footerL footerLL footerM footerM footerR footerR';
-		grid-column-gap: 20px;
-		grid-template-columns: repeat(6, 16vw [col-start]);
-	}
-	.grid-middle {
-		padding: 10px;
-		grid-area: middle;
-	}
-	.grid-header{
-		margin-top: 10px;
-		padding: 5px;
-		grid-area: headerM;
-	}
-	.grid-logo {
-		padding: 5px;
-		grid-area: headerL;		
-	}
-	.grid-button {
-		display: grid | inline-block;
-		padding: 5px;
-		grid-area: headerR;
-		margin: auto;
-		margin-top: -8%;
-		margin-left: -25%;
-	}
-	.grid-dsr {
-		padding: 10px;
-		grid-area: DeadSpaceR;
-	}
-	.grid-dsl {
-		padding: 10px;
-		grid-area: DeadSpaceL;
-	}
-	.grid-fl {
-		padding: 10px;
-		grid-area: footerL;
-		display: inline-block | inline-grid;
-	}
-	.grid-fll {
-		padding: 10px;
-		grid-area: footerLL;
-		display: inline-block | inline-grid;
-	}
-	.grid-fr {
-		padding: 10px;
-		grid-area: footerR;
-		display: inline-block | inline-grid;
-	}
-	</style>
-	<script type="text/javascript">	
-	function goToCategories(){
-		window.location.assign("PiHub_categories.html");
-	};
-	function goToPortsPiHome(){
-		window.location.assign("index.html");
-	};
-	</script>
+	<link rel="icon" type="image/png" href="Website_Icon.png">
+	<link rel="stylesheet" href="main.css">
 </head>
 <body style="background-color:black;">
 	<div id="WebBrow">
 	<div class="grid-container">
 	<div class="grid-logo">
-	<a href="PiHub_Home.html"><img class="imgFit" width="250" height="120" title="PiHub" alt="PiHub Media" src="PiHub_Logo.png" itemprop="logo"/></a>
+	<div class="hub">
+	<span contenteditable="true" style="color:white;">Jay</span><span contenteditable="true">Hub</span>
 	</div>
-	
-	<div class="grid-button">
-	<button class="tablink tabM" onclick="goToCategories()">Categories</button>
-	</div></div>
+	</div>
+	</div>
 	
 	<ul class="w3-padding grid-container grid-middle">
 	<li><div class="grid-dsl"></div></li>
 	<div class="grid-middle">
-	<h3 class="SubHeadText" style="text-decoration: underline; font-weight: bold;">Personal Information</h3>
-	<h5 class="SubHeadText">Background Information</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
-	My name is Jared Makhoul, a student at RMIT university. My student number is 3601463. I graduated from St Peters College and in 2015 I completed my VCE certificate. I applied for and was accepted in the Associate Degree in Engineering. I entered university with the goal of becoming an aerospace engineer however, goals changed at the end of that course and found IT to be more enjoyable. I am currently undertaking an Associate Degree in Engineering Technology (Networking and Computing Major) and a Bachelor of Technology (Computing Studies). I was born in Australia and don’t know much about my nationality with parents of two different nationality and cultures. I really enjoy extreme driving sports, mainly rally, as it pushes both the driver and the car to it’s limits in such a delicate way. My goal in life is to become a rally driver which unfortunately is extremely expensive. Some of my hobbies include gaming and snooker. I originally started back in 2005 on the SNES playing Super Mario and Pilotwings. A few years later I started playing Star Wars Battlefront 2, the good one, and Diablo 2. These games were the first to impact me and allowed me to enjoy and delve into the games we have today. I have been playing snooker for almost 3 years now and find this is a great pass time. I watch competitions and have also been playing competitions since the start of this year.  This has helped me grow as a player and as a person.</p>
-	<h3 class="SubHeadText" style="text-decoration: underline; font-weight: bold;">Interests in IT</h3>
-	<h5 class="SubHeadText">My interests and reasons to start IT</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	<h2 class="SubHeadText mhText" onclick="cat1();">Personal Information</h2>
+	<div id="c1">
+	<h4 class="SubHeadText">Background Information</h4>
+	<p class="bodyText">
+	My name is Jared Makhoul, a student at RMIT university. My student number is 3601463. I graduated from St Peters College and in 2015 I completed my VCE certificate. I applied for and was accepted in the Associate Degree in Engineering. I entered university with the goal of becoming an aerospace engineer however, goals changed at the end of that course and found IT to be more enjoyable. I am currently undertaking an Associate Degree in Engineering Technology (Networking and Computing Major) and a Bachelor of Technology (Computing Studies). I was born in Australia and don’t know much about my nationality with parents of two different nationality and cultures. I really enjoy extreme driving sports, mainly rally, as it pushes both the driver and the car to it’s limits in such a delicate way. My goal in life is to become a rally driver which unfortunately is extremely expensive. Some of my hobbies include gaming and snooker. I originally started back in 2005 on the SNES playing Super Mario and Pilotwings. A few years later I started playing Star Wars Battlefront 2, the good one, and Diablo 2. These games were the first to impact me and allowed me to enjoy and delve into the games we have today. I have been playing snooker for almost 3 years now and find this is a great pass time. I watch competitions and have also been playing competitions since the start of this year.  This has helped me grow as a player and as a person.
+	</p>
+	</div>
+	<h2 class="SubHeadText mhText">Interests in IT</h2>
+	<div id="c2">
+	<h4 class="SubHeadText">My interests and reasons to start IT</h4>
+	<p class="bodyText">
 	I have many interests in IT, my main interest IT is security as it is one of the most important aspects of computing as it governs privacy and safety for users. I believe that this is important due to how large the internet is becoming which increases the possibilities to threats and these need to have a deterrence. Cryptography is my main interest as it relies heavily upon mathematics. I have enjoyed mathematics and completed advanced mathematics courses in VCE, and my second main interest is IT. Computing involves a lot of mathematics. The creation of algorithms and the implementations of said algorithms, from cryptographic algorithms to general programming algorithms, each has its purpose which intrigues me, and I would love to learn more about them. My interest in IT increased watching my brother’s skills, work and abilities in computing. He was primarily self-taught, and he has gone extremely far with his career. Currently he designs networks for new schools being built in Victoria.
 	</p>
-	<h5 class="SubHeadText">Why I chose RMIT</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	<h4 class="SubHeadText">Why I chose RMIT</h4>
+	<p class="bodyText">
 	I chose RMIT University because of the courses that it offers and due to multiple recommendations made to me when I undertook my Associate Degree in Engineering course. After being at RMIT for three years, I believed that the learning material at RMIT is easy to understand, and the lecturers are very friendly and approachable with the bonus of its location which is ideal and makes it easy to access. Another reason that I chose RMIT is that it has the best pathways to get into other courses which allows for a lot of leeway when deciding courses that can dictate one’s future.
 	</p>
-	<h5 class="SubHeadText">What I expect to learn</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	<h4 class="SubHeadText">What I expect to learn</h4>
+	<p class="bodyText">
 	I expect to learn about different ways to deal with computer systems and technologies. The ability to program software to make it easier to use. These programs can range from scheduling to automating certain processes such as emails or recognising certain images e.g.  facial recognition and source locating specific images. By Learning cryptographic algorithms to further understand encryption and develop it further, this will enable me to protect the privacy of users and clients in the future from possible privacy breaches. By understanding security of computer systems to further deter possible breaches in privacy and computer hacking attacks. At a later stage I expect to further myself by learning analysis techniques.
 	</p>
-	<h3 class="SubHeadText" style="text-decoration: underline; font-weight: bold;">Ideal Job</h3>
-	<h5 class="SubHeadText">Job Description</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	</div>
+	<h2 class="SubHeadText mhText">Ideal Job</h2>
+	<div id="c3">
+	<h4 class="SubHeadText">Job Title, Employer & advert link</h4>
+	<p class="bodyText">
+	Security Analyst with Robert Half Technology<br> <a href="https://www.seek.com.au/job/38553328?searchrequesttoken=ec52d214-8f8a-42c5-8948-d37209a0190f&type=standard">Security Analyst Job Advert</a>
+	</p>
+	<section style="display: block">
+	<img class="imgF" style="align: center;" src="Job Advert 0.PNG">
+	<img class="imgF" style="align: center;" src="Job Advert 2.PNG">
+	<img class="imgF" style="align: center;" src="Job Advert 1.PNG">
+	</section>
+	<h4 class="SubHeadText">Job Description</h4>
+	<p class="bodyText">
 	The Security Analyst Job for Robert Half Limited is based in the Melbourne CBD. This Job appeals to me as it involves analysis work on security systems and requires in depth knowledge of security analytics and creative problem-solving skills. I have always enjoyed the idea of working in security systems in order to help others keep their data private and secure. Problem solving and thinking outside the box are keys to creating great solutions to deter threats which is the most appealing and satisfying part of this job.
 	</p>
-	<h5 class="SubHeadText">Skills, Qualifications and Experience Required</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	<h4 class="SubHeadText">Skills, Qualifications and Experience Required</h4>
+	<p class="bodyText">
 	This job requires completion of either a computer science degree or fields related to it. The applicant must have experience in complying with industry standards as well as an excellent knowledge in both networking and security technology, which possibly involve Cisco, Dell, Ubiquiti, Xirrus systems. The applicant must have great written and verbal communication skills and great listening skills. An understanding of the TCP/IP networking model and being able to apply this model to the real-world environment. The applicant must have the ability to use operating systems, i.e. Windows or Linux, and virtual machine software, i.e. VMware.
 	</p>
-	<h5 class="SubHeadText">My Current Skills, Qualifications and Experience</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	<h4 class="SubHeadText">My Current Skills, Qualifications and Experience</h4>
+	<p class="bodyText">
 	Currently I have mid-level experience with Windows operating systems and beginner-level experience with Linux. Intermediate level skills with VMware. I have recently completed CCNA 1 – 4 and have above average level of understanding of cisco systems. I have no experience in security technology at this current stage. I have limited experience in communicating at a professional level. 
 	</p>
-	<h5 class="SubHeadText">My Plan to Obtain the Required Attributes</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	<h4 class="SubHeadText">My Plan to Obtain the Required Attributes</h4>
+	<p class="bodyText">
 	I plan to improve my ability to use various operating systems at the highest level by undertaking further and continual self-learn courses. With regards to networking I will continue through into advanced networking courses and further develop my skills with the required technology. Due to the nature of verbal communication, I will improve this skill over time in a working environment. To further develop my writing skills, I practice writing reports. I would seek assistance from family members in this situation. To gain a better knowledge of security technology I would undertake various security courses from general cyber security courses to networking security courses, i.e. CCNA Security (Cisco Certified Network Associate Security) and will need to continue updating my knowledge as those will significantly change over time.
 	</p>
-	<h3 class="SubHeadText" style="text-decoration: underline; font-weight: bold;">Personal Profile</h3>
-	<h5 class="SubHeadText">Results</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
-	</p>
-	<h5 class="SubHeadText">What The Results Mean</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	</div>
+	<h2 class="SubHeadText mhText">Personal Profile</h2>
+	<div id="c4">
+	<h4 class="SubHeadText">Results</h4>
+	<img class="imgF" src="Myers-Briggs Result.png">
+	<img class="imgF" style="max-width:50vw" src="Creativity Test Result.PNG">
+	<h4 class="SubHeadText">What The Results Mean</h4>
+	<p class="bodyText">
 	The results of the Myers-Briggs test indicate that I am part of the rarest MBTI group, INTJ-A. This group makes up approximately 2% of the world’s population. According to the test I am an analyst type. For me, I find that this accurately reflects my personality and relates to what I enjoy doing most which is analysing people, patterns and surroundings. This also links to the result of my learning style test. I do not understand the results of the creativity test as such this does not create an impact. The overall result from all test dictates that analytics is a field I should pursue.
 	</p>
-	<h5 class="SubHeadText">How They Will Influence Behaviour In a Team</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	<h4 class="SubHeadText">How They Will Influence Behaviour In a Team</h4>
+	<p class="bodyText">
 	The results of the Myers-Briggs tests are an indication of the interaction I have in a team environment. Team environments require the ability to work well and accommodate other types of personalities while also not hindering oneself. However, the introverted aspect of the INTJ personality type will more than likely affect communication in a team environment. Communication will be straight-forward and small talk will be kept to a minimum which would allow for an efficient work space. This may negatively affect others but will allow everyone to work better on their section of work. This indicates that I must accommodate those with extrovert personalities who like to talk or take centre stage as we must work with different personalities to achieve the goal at hand. Complex work is something I rather enjoy however, this can make it much harder for others and could potentially hinder progress of a work goal.
 	</p>
-	<h5 class="SubHeadText">What To Take Into Account When Forming a Team</h5>
-	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	<h4 class="SubHeadText">What To Take Into Account When Forming a Team</h4>
+	<p class="bodyText">
 	When forming a team those with a higher ability to work on the project should be chosen. Those with higher capabilities in terms of the main project goal should be chosen over those with lesser capabilities towards the goal. Each project has given milestones which are assessed before choosing a team to indicate the type of people required for the milestone goals. For example, someone with the INTP, “logician”, and personality type would be better suited for creating and designing a complicated system than someone with the ESFJ, “consul”, personality type as they would be better suited for finish the sentence. In a workplace environment we also have to skill up others and therefore it would be great to bring someone new into the team so that all the team members will be sharing their knowledge. 
 	</p>
+	</div>
+	<h2 class="SubHeadText mhText">Project Ideas</h2>
+	<div id="c5">
+	<h4 class="SubHeadText">Overview</h4>
+	<p class="bodyText">
+	An interesting concept for an IT project would be to create a visual HUD with augmented reality for automotive vehicles. The hub will provide essential details to the driver to aid in travel. This should lower the chances of accidents and allow the driver to maintain focus on the road. This project is based off the similar system that fighter pilots have in their helmets. Our HUD will be an interactive instrument with both voice and touch input.
+	</p>
+	<h4 class="SubHeadText">Motivation</h4>
+	<p class="bodyText">
+	I believe that this would be a useful and interesting project to complete as it brings science-fiction into the real world. Augmented Reality is in its early stages. As this technology progresses it will bring about a large change in how we do many things. From driving to mobile devices.
+	<br>
+	Another added advantage would be to help drivers maintain concentration on the road. This can be done with the project as it allows the driver to see necessary information such as speed or GPS. This mean that the driver wouldn’t have to have their eyes wonder off the road.
+	</p>
+	<h4 class="SubHeadText">Description</h4>
+	<p class="bodyText">
+	This electronic hub would be a film placed on the internal side of the front windscreen. This film would need to be ultra-thin and transparent in order not to affect the drivers view. This film would need a connection point and act as if it was a see-through smart phone screen. The screen is a direct display that will mainly mimic the cars dashboard and will contain the following features: Speedometer, GPS, Rear and Side View Mirrors, Fuel Gauge, Oil Temperature Gauge, Tachometer, Odometer, Location information and Distance Delta. 
+	<br>
+	The speedometer will be positioned in the lower middle of the drivers view point and, by default, it will be displayed in digital format instead of analogue. However, there will be an option for either, or both at the same time. The digital format will be placed in front of the analogue format. 
+	<br>
+	Secondly an onscreen GPS. The 2 main features are a map, which acts similar to google maps, and visual cues, to know which lane one should be in or other information. The map feature is similar to the basic satnav-like map which has two viewing modes, birds-eye and directional. Birds-eye is a top down view of the map whereas directional is angled to face the drivers forward direction. The visual cues consist of but are not limited to the following: directions, distance to directions, and Lane Selection. 
+	<br>
+	The third application is mirroring the rear and side view mirrors. This application will allow the driver to see each mirror on the HUD. The mirrors are displayed on the hub respective to their original position. 
+	<br>
+	Fuel gauge and oil temperature will be displayed in the lower right of the HUD. The fuel gauge will be displayed as a vertical bar with general design of F(full) being at the top and E(empty) being at the bottom and, 1/4-point, 1/10-point and, 1/20-point mark without text. The quarter point marked spots will be a larger indication than the 1/10-point marks. The 1/20-point marks will be the smaller indicators. The oil temperature gauge will be displayed in both numerical and analogue. The numerical display will be placed in a square to the right of the analogue display. This gauge will be displayed to the right of the fuel-gauge.
+	<br>
+	On the HUD the tachometer will have 4 display types. Hidden, numerical, analogue and, horizontal bar. The hidden display will hide the tachometer from the driver. Numerical display will provide the tachometer data in a numerical fashion. The analogue display will be displayed similar to the tachometer in the driver’s car. The horizontal bar display is a colour-coded horizontal bar-graph red being redline RPM. Green and Yellow would be dependent on the engine of the car. This display can either be left or right of speedometer.
+	<br>
+	The odometer is a device that shows the distance travelled by an automotive vehicle. This will be displayed in the lower left of the HUD.
+	<br>
+	Location information and Distance Delta are to provide specific information to the driver. Location information will display speed limits of the roads and, possible points of interest. Speed limit displays allows the driver to go on unknown roads without the hassle of searching for a speed sign. Distance Delta is a distance function system which will display the distance from objects in the 4 points: forward, rear, right and, left. Distance delta would be displayed on both the mirrors and the lower section of the main HUD above the speedometer.
+	</p>
+	<h4 class="SubHeadText">Tools and Technologies</h4>
+	<p class="bodyText">
+	The software, hardware and other equipment required to complete this project are as follows: AR development toolkits, i.e. Vuforia Augmented Reality SDK (this is for mobile application), Android OS, Android application package (.apk), OBD-II port, OBD adapter and, raspberry pi. 
+	<br>
+	An AR dev toolkit is required to make the AR aspect of the application. The system can possibly be run on a raspberry pi, which could be powered by the car’s battery, which has Android OS on it. An understanding of how to make a “.apk” file which the AR dev toolkit and the software will mix together. An OBD-II port and adapter are required to connect these devices.
+	</p>
+	<h4 class="SubHeadText">Skills Required</h4>
+	<p class="bodyText">
+	The skills required to complete this project are knowledge of Java programming, basic understanding in setting up a raspberry pi, an understanding of Android OS, and how to utilise an OBD-II port. Java programming is one of the most important skill required to complete the project as both the creation of the application and the ability to use the augmented reality development toolkit. Without knowledge of java these tasks would be very difficult. Setting up a raspberry pi as well as installing Android OS on it will be a basic requirement to develop the tool. How to program an application to work with an OBD-II connection to read data and display it as well as how to work with it. This ability is the highest priority skill required as without it the entire project will fail.
+	<br>
+	It will not be hard to find the skills for programming in Java language however the ability to utilise and OBD-II is not an easy task and will take some research and time learn and understand. Setting up a raspberry pi with Android OS is extremely simple and an easy process.
+	</p>
+	<h4 class="SubHeadText">Outcome</h4>
+	<p class="bodyText">
+	The overall outcome that would be achieved as a result of this project is the ease of access only seen in the realms of science-fiction. This would allow users to have a safe trip while driving and provide them with information to avoid accidents. The possible impact this project would have on society is lowering the rate of vehicle related accident. 
+	</p>
+	</div>
 	</div>
 	</div>
 	<li><div class="grid-dsr"></div></li>
 	</ul>
-	<div class="grid-container" style="background-color:#0F0F0F; color:white; padding: 10px; border-style: ridge hidden ridge hidden; border-width: 2px;">
-	<div class="grid-fl" style="background-color:#0F0F0F; color:white; padding: 10px;"><a><img class="imgFitCon" width="64" height="64" alt="Me in 20 years" src="Avatar.jpg" itemprop="logo"/></a></div>
-	<div class="grid-fll" style="background-color:#0F0F0F; color:white; padding: 10px; border-radius: 0px 20px 20px 0px; grid-area: footerL footerLL;"><p class="FooterText">Jared Makhoul<br><br>3601463<br><br>s34601463@student.rmit.edu.au</p></div>
-	</div>
+	<div class="grid-container footerBackground">
+	<div class="grid-fl" style="color:white; padding: 10px;"><a><img class="imgF" width="128" height="128" alt="Me in 20 years" src="Avatar.jpg" itemprop="logo"/></a></div>
+	<div class="grid-fll"><p class="FooterText">Jared Makhoul<br><br>3601463<br><br>s34601463@student.rmit.edu.au</p></div>
 	</div>
 </body>
 </html>
