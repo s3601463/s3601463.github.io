@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTC-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title> s3601463 | Homepage </title>
+	<link rel="icon" type="image/png" href="PiHub_Icon.png">
+	<style>
+	.titleHeader {background-color: #ff9800; border: none; color: black; padding: 10px 5px; text-align: center; display: inline-block; font-weight: bold; font-size: 60px; font-family: Ariel, Geneva, sans-serif; margin: 6px 2px; margin-top: 25px; border-radius: 20px; }
+	.topMargin {margin-top: 25px; }
+	.tablink {background-color: #ff9800; border: none; color: black; padding: 6px 16px; text-align: center; display: inline-block; font-size: 27px; margin: 3px 1px; margin-top: 50px; cursor: pointer; }
+	.tabM {border-radius: 4px; margin-right: 50px; font-weight: bold;}
+	.imgFit {width: 250px; height: 120px; max-width: 100%; max-height: 100vh; object-fit: contain; cursor: pointer;}
+	.imgFitA {width: 64px; height: 64px; max-width: 100%; max-height: 100vh; object-fit: contain; cursor: pointer;}
+	.imgFitCon {width: 250px; height: 120px; max-width: 100%; max-height: 100vh; object-fit: contain; align: center; cursor: pointer;}
+	.SubHeadText {color: #ff9800; font-family: Ariel, Geneva, sans-serif; display: inline-block | inline-grid; text-align: center; text-decoration: none; cursor: pointer; margin-bottom: 10px;}
+	.FooterText {color: #ff9800; font-family: Ariel, Geneva, sans-serif; display: inline-block | inline-grid; text-align: left; text-decoration: none; cursor: pointer; margin-bottom: 10px;}
+	.grid-container {
+		display: grid;
+		justify-content: space-evenly;
+		justify-items: center
+		align-content: center;
+		grid-template-areas: 
+		'headerL headerSML headerM headerM headerSMR headerR' 
+		'DeadSpaceL middle middle middle middle DeadSpaceR' 
+		'footerL footerLL footerM footerM footerR footerR';
+		grid-column-gap: 20px;
+		grid-template-columns: repeat(6, 16vw [col-start]);
+	}
+	.grid-middle {
+		padding: 10px;
+		grid-area: middle;
+	}
+	.grid-header{
+		margin-top: 10px;
+		padding: 5px;
+		grid-area: headerM;
+	}
+	.grid-logo {
+		padding: 5px;
+		grid-area: headerL;		
+	}
+	.grid-button {
+		display: grid | inline-block;
+		padding: 5px;
+		grid-area: headerR;
+		margin: auto;
+		margin-top: -8%;
+		margin-left: -25%;
+	}
+	.grid-dsr {
+		padding: 10px;
+		grid-area: DeadSpaceR;
+	}
+	.grid-dsl {
+		padding: 10px;
+		grid-area: DeadSpaceL;
+	}
+	.grid-fl {
+		padding: 10px;
+		grid-area: footerL;
+		display: inline-block | inline-grid;
+	}
+	.grid-fll {
+		padding: 10px;
+		grid-area: footerLL;
+		display: inline-block | inline-grid;
+	}
+	.grid-fr {
+		padding: 10px;
+		grid-area: footerR;
+		display: inline-block | inline-grid;
+	}
+	</style>
+	<script type="text/javascript">	
+	function goToCategories(){
+		window.location.assign("PiHub_categories.html");
+	};
+	function goToPortsPiHome(){
+		window.location.assign("index.html");
+	};
+	</script>
+</head>
+<body style="background-color:black;">
+	<div id="WebBrow">
+	<div class="grid-container">
+	<div class="grid-logo">
+	<a href="PiHub_Home.html"><img class="imgFit" width="250" height="120" title="PiHub" alt="PiHub Media" src="PiHub_Logo.png" itemprop="logo"/></a>
+	</div>
+	
+	<div class="grid-button">
+	<button class="tablink tabM" onclick="goToCategories()">Categories</button>
+	</div></div>
+	
+	<ul class="w3-padding grid-container grid-middle">
+	<li><div class="grid-dsl"></div></li>
+	<div class="grid-middle">
+	<h3 class="SubHeadText" style="text-decoration: underline; font-weight: bold;">Personal Information</h3>
+	<h5 class="SubHeadText">Background Information</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	My name is Jared Makhoul, a student at RMIT university. My student number is 3601463. I graduated from St Peters College and in 2015 I completed my VCE certificate. I applied for and was accepted in the Associate Degree in Engineering. I entered university with the goal of becoming an aerospace engineer however, goals changed at the end of that course and found IT to be more enjoyable. I am currently undertaking an Associate Degree in Engineering Technology (Networking and Computing Major) and a Bachelor of Technology (Computing Studies). I was born in Australia and don’t know much about my nationality with parents of two different nationality and cultures. I really enjoy extreme driving sports, mainly rally, as it pushes both the driver and the car to it’s limits in such a delicate way. My goal in life is to become a rally driver which unfortunately is extremely expensive. Some of my hobbies include gaming and snooker. I originally started back in 2005 on the SNES playing Super Mario and Pilotwings. A few years later I started playing Star Wars Battlefront 2, the good one, and Diablo 2. These games were the first to impact me and allowed me to enjoy and delve into the games we have today. I have been playing snooker for almost 3 years now and find this is a great pass time. I watch competitions and have also been playing competitions since the start of this year.  This has helped me grow as a player and as a person.</p>
+	<h3 class="SubHeadText" style="text-decoration: underline; font-weight: bold;">Interests in IT</h3>
+	<h5 class="SubHeadText">My interests and reasons to start IT</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	I have many interests in IT, my main interest IT is security as it is one of the most important aspects of computing as it governs privacy and safety for users. I believe that this is important due to how large the internet is becoming which increases the possibilities to threats and these need to have a deterrence. Cryptography is my main interest as it relies heavily upon mathematics. I have enjoyed mathematics and completed advanced mathematics courses in VCE, and my second main interest is IT. Computing involves a lot of mathematics. The creation of algorithms and the implementations of said algorithms, from cryptographic algorithms to general programming algorithms, each has its purpose which intrigues me, and I would love to learn more about them. My interest in IT increased watching my brother’s skills, work and abilities in computing. He was primarily self-taught, and he has gone extremely far with his career. Currently he designs networks for new schools being built in Victoria.
+	</p>
+	<h5 class="SubHeadText">Why I chose RMIT</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	I chose RMIT University because of the courses that it offers and due to multiple recommendations made to me when I undertook my Associate Degree in Engineering course. After being at RMIT for three years, I believed that the learning material at RMIT is easy to understand, and the lecturers are very friendly and approachable with the bonus of its location which is ideal and makes it easy to access. Another reason that I chose RMIT is that it has the best pathways to get into other courses which allows for a lot of leeway when deciding courses that can dictate one’s future.
+	</p>
+	<h5 class="SubHeadText">What I expect to learn</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	I expect to learn about different ways to deal with computer systems and technologies. The ability to program software to make it easier to use. These programs can range from scheduling to automating certain processes such as emails or recognising certain images e.g.  facial recognition and source locating specific images. By Learning cryptographic algorithms to further understand encryption and develop it further, this will enable me to protect the privacy of users and clients in the future from possible privacy breaches. By understanding security of computer systems to further deter possible breaches in privacy and computer hacking attacks. At a later stage I expect to further myself by learning analysis techniques.
+	</p>
+	<h3 class="SubHeadText" style="text-decoration: underline; font-weight: bold;">Ideal Job</h3>
+	<h5 class="SubHeadText">Job Description</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	The Security Analyst Job for Robert Half Limited is based in the Melbourne CBD. This Job appeals to me as it involves analysis work on security systems and requires in depth knowledge of security analytics and creative problem-solving skills. I have always enjoyed the idea of working in security systems in order to help others keep their data private and secure. Problem solving and thinking outside the box are keys to creating great solutions to deter threats which is the most appealing and satisfying part of this job.
+	</p>
+	<h5 class="SubHeadText">Skills, Qualifications and Experience Required</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	This job requires completion of either a computer science degree or fields related to it. The applicant must have experience in complying with industry standards as well as an excellent knowledge in both networking and security technology, which possibly involve Cisco, Dell, Ubiquiti, Xirrus systems. The applicant must have great written and verbal communication skills and great listening skills. An understanding of the TCP/IP networking model and being able to apply this model to the real-world environment. The applicant must have the ability to use operating systems, i.e. Windows or Linux, and virtual machine software, i.e. VMware.
+	</p>
+	<h5 class="SubHeadText">My Current Skills, Qualifications and Experience</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	Currently I have mid-level experience with Windows operating systems and beginner-level experience with Linux. Intermediate level skills with VMware. I have recently completed CCNA 1 – 4 and have above average level of understanding of cisco systems. I have no experience in security technology at this current stage. I have limited experience in communicating at a professional level. 
+	</p>
+	<h5 class="SubHeadText">My Plan to Obtain the Required Attributes</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	I plan to improve my ability to use various operating systems at the highest level by undertaking further and continual self-learn courses. With regards to networking I will continue through into advanced networking courses and further develop my skills with the required technology. Due to the nature of verbal communication, I will improve this skill over time in a working environment. To further develop my writing skills, I practice writing reports. I would seek assistance from family members in this situation. To gain a better knowledge of security technology I would undertake various security courses from general cyber security courses to networking security courses, i.e. CCNA Security (Cisco Certified Network Associate Security) and will need to continue updating my knowledge as those will significantly change over time.
+	</p>
+	<h3 class="SubHeadText" style="text-decoration: underline; font-weight: bold;">Personal Profile</h3>
+	<h5 class="SubHeadText">Results</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	</p>
+	<h5 class="SubHeadText">What The Results Mean</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	The results of the Myers-Briggs test indicate that I am part of the rarest MBTI group, INTJ-A. This group makes up approximately 2% of the world’s population. According to the test I am an analyst type. For me, I find that this accurately reflects my personality and relates to what I enjoy doing most which is analysing people, patterns and surroundings. This also links to the result of my learning style test. I do not understand the results of the creativity test as such this does not create an impact. The overall result from all test dictates that analytics is a field I should pursue.
+	</p>
+	<h5 class="SubHeadText">How They Will Influence Behaviour In a Team</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	The results of the Myers-Briggs tests are an indication of the interaction I have in a team environment. Team environments require the ability to work well and accommodate other types of personalities while also not hindering oneself. However, the introverted aspect of the INTJ personality type will more than likely affect communication in a team environment. Communication will be straight-forward and small talk will be kept to a minimum which would allow for an efficient work space. This may negatively affect others but will allow everyone to work better on their section of work. This indicates that I must accommodate those with extrovert personalities who like to talk or take centre stage as we must work with different personalities to achieve the goal at hand. Complex work is something I rather enjoy however, this can make it much harder for others and could potentially hinder progress of a work goal.
+	</p>
+	<h5 class="SubHeadText">What To Take Into Account When Forming a Team</h5>
+	<p style="background-color:#0F0F0F; color:white; padding: 5px 5px; border-style:outset; border-radius: 10px; border-width: 2px;">
+	When forming a team those with a higher ability to work on the project should be chosen. Those with higher capabilities in terms of the main project goal should be chosen over those with lesser capabilities towards the goal. Each project has given milestones which are assessed before choosing a team to indicate the type of people required for the milestone goals. For example, someone with the INTP, “logician”, and personality type would be better suited for creating and designing a complicated system than someone with the ESFJ, “consul”, personality type as they would be better suited for finish the sentence. In a workplace environment we also have to skill up others and therefore it would be great to bring someone new into the team so that all the team members will be sharing their knowledge. 
+	</p>
+	</div>
+	</div>
+	<li><div class="grid-dsr"></div></li>
+	</ul>
+	<div class="grid-container" style="background-color:#0F0F0F; color:white; padding: 10px; border-style: ridge hidden ridge hidden; border-width: 2px;">
+	<div class="grid-fl" style="background-color:#0F0F0F; color:white; padding: 10px;"><a><img class="imgFitCon" width="64" height="64" alt="Me in 20 years" src="Avatar.jpg" itemprop="logo"/></a></div>
+	<div class="grid-fll" style="background-color:#0F0F0F; color:white; padding: 10px; border-radius: 0px 20px 20px 0px; grid-area: footerL footerLL;"><p class="FooterText">Jared Makhoul<br><br>3601463<br><br>s34601463@student.rmit.edu.au</p></div>
+	</div>
+	</div>
+</body>
+</html>
